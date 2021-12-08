@@ -1,31 +1,109 @@
-<!DOCTYPE html>
-<html lang="en-us">
-<head>
-  <meta charset="UTF-8">
-  <title>Portfolio Landing Page</title>
-  <style>
-    body {text-align: center; font-family: Helvetica, sans-serif;}
-  </style>
-</head>
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>cdenq</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="homepage is-preload">
+		<div id="page-wrapper">
 
-<body>
-  <p><strong>home</strong> | about me | portfolio | blog | contact</p>
-  <hr>
-  <h4><img src="https://user-images.githubusercontent.com/74934154/144359766-069ece51-e0a3-47f2-8eff-2abce3b0f046.png" alt="tofu profile picture"></h4>
-  <hr>
-  <h1><strong>chris denq</strong></h1>
+			<!-- Header -->
+				<section id="header">
+					<div class="container">
 
+						<!-- Logo -->
+							<h1 id="logo"><a href="index.html">chris denq</a></h1>
+							<h2 style = "padding-top: 20px;">data scientist | python dev | ml enthuiasist </h2>
+							<p>
+								a personal webpage that avoids the use of caps <br>
+								while organizing my github repos in a more html-ly way.
+							</p>
 
+						<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a class="icon solid fa-home" href="index.html"><span>home</span></a></li>
+								<li><a class="icon solid fa-cog" href="about-me.html"><span>about me</span></a></li>
+								<li>
+									<a href="portfolio.html" class="icon fa-chart-bar"><span>portfolio</span></a>
+									<ul>
+										<li><a href="subroutes/open-source.html">open-source projects</a></li>
+										<li><a href="subroutes/program-projects.html">program projects</a></li>
+										<li>
+											<a href="">passion projects</a>
+											<ul>
+												<li><a href="subroutes/development-projects.html">development</a></li>
+												<li><a href="subroutes/fun-projects.html">random fun</a></li>
+											</ul>
+										</li>
+										<li><a href="subroutes/miscellaneous.html">miscellaneous</a></li>
+									</ul>
+								</li>
+								<li><a class="icon solid fa-sitemap" href="code.html"><span>code</span></a></li>
+								<li><a class="icon solid fa-retweet" href="contact.html"><span>contact</span></a></li>
+							</ul>
+						</nav>
+					</div>
+				</section>
 
-  <p>a personal exercise in html that avoids the use of capitalization <br> and doubles as a promotional page. very cool.</p>
+			<!-- Features -->
+				<section id="features">
+					<div class="container">
+						<header>
+							<h2>featured projects</h2>
+						</header>
+						<div class="row aln-center">
+							<div class="col-4 col-6-medium col-12-small">
+								<!-- Feature -->
+									<section>
+										<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+										<header>
+											<h3><a href="">eda on streaming services</a></h3>
+										</header>
+										<p><strong>python</strong> project that utilizes kaggle datasets to discover and visualize hidden trends in three streaming services: netflix, hulu, disney+</p>
+									</section>
+							</div>
 
-  <p>click your favorite image below.</p>
+							<div class="col-4 col-6-medium col-12-small">
+								<!-- Feature -->
+								<section>
+									<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+									<header>
+										<h3><a href="">ideal vacation visualizer</a></h3>
+									</header>
+									<p><strong>python</strong> project that pulls various temperature, city, hotel data into a visualized google map--finding the ideal vacation setting</p>
+								</section>
+							</div>
 
-  <h4>
-    <img src="https://user-images.githubusercontent.com/74934154/144359768-8a30da07-6901-4ece-8b87-a68dacff5bc9.png" alt="about me">
-    <img src="https://user-images.githubusercontent.com/74934154/144359764-15b5d4e4-e589-4d3e-895c-c14c9ac4b623.png" alt="class projects">
-    <img src="https://user-images.githubusercontent.com/74934154/144359767-fb68562b-2616-4702-b273-e1ffd43c6446.png" alt="passion projects">
-    <img src="https://user-images.githubusercontent.com/74934154/144359769-f859c7c0-43c5-4a35-ab24-1a92005c0c05.png" alt="personal projects">
-  </h4>
-</body>
+							<div class="col-4 col-6-medium col-12-small">
+								<!-- Feature -->
+								<section>
+									<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+									<header>
+										<h3><a href="http://html5up.net">project3</a></h3>
+									</header>
+									<p>pending</p>
+								</section>
+							</div>
+
+							<div class="col-12">
+								<ul class="actions">
+									<li><a href="portfolio.html" class="button icon solid fa-file">more</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</section>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
