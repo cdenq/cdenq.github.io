@@ -2,7 +2,7 @@
 
 ## cdenq.github.io
 
-`cdenq.github.io` is a personal website project built off of the [Strongly Typed](https://html5up.net/strongly-typed) theme.
+`cdenq.github.io` is a [personal website] (https://cdenq.github.io/) project built off of the [Strongly Typed](https://html5up.net/strongly-typed) theme.
 
 ## Built with
 - Github Pages
