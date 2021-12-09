@@ -13,8 +13,8 @@
     - Bootstrap
 
 ## Technical Skills
-- navigating Github Pages
-- editing, organizing, creating various web elements
+- Navigating Github Pages
+- Editing, organizing, creating various web elements
 
 ## Qualitative Skills
 - Synthesizing results for tentative conclusions
