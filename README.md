@@ -16,10 +16,6 @@
 - Navigating Github Pages
 - Editing, organizing, creating various web elements
 
-## Qualitative Skills
-- Synthesizing results for tentative conclusions
-- Acknowledging potential pitfalls with results and techniques
-
 ## Screenshots
 ![image1](https://user-images.githubusercontent.com/74934154/145449757-ceaa445b-5328-4275-b445-4e7849887e82.png)
 
