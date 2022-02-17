@@ -16,44 +16,75 @@
 </head>
 
 <body class="is-preload">
-	<!-- Navbar -->
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-		  <span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarNavDropdown">
-		  <ul class="navbar-nav">
-			<li class="nav-item active">
-			  <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
-			</li>
-			<li class="nav-item dropdown">
-				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					About Me
-				</a>
-				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-					<a class="dropdown-item" href="full-bio.html">Full Bio</a>
-					<a class="dropdown-item" href="#">Resume</a>
-					<a class="dropdown-item" href="#">Non-Data Interests</a>
-					<a class="dropdown-item" href="#">Library</a>
-				</div>
-			</li>
-			<li class="nav-item dropdown">
-				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					Portfolio
-				</a>
-				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-					<a class="dropdown-item" href="#">All Projects</a>
-					<a class="dropdown-item" href="#">Data Science Projects</a>
-					<a class="dropdown-item" href="#">Coding Projects</a>
-					<a class="dropdown-item" href="#">Miscellaneous Projects</a>
-				</div>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Blog</a>
-			</li>
-		  </ul>
-		</div>
-	</nav>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+            <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    About Me
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="full-bio.html">Full Bio</a>
+                    <a class="dropdown-item" target="_blank" href="../assets/downloads/resume.pdf">Resume</a>
+                    <!-- <a class="dropdown-item" href="interest.html">Other Interests</a> -->
+                </div>
+            </li>
+            <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    About Me
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="subroutes/full-bio.html">Full Bio</a>
+                    <a class="dropdown-item" href="assets/downloads/resume.pdf">Resume</a>
+                    <a class="dropdown-item" href="#">Library</a>
+                    <a class="dropdown-item" href="interest.html">Other Interests</a>
+                </div>
+            </li> -->
+            <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Library+
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Past Conferences</a>
+                    <a class="dropdown-item" href="#">Favorite Data/AI Papers</a>
+                    <a class="dropdown-item" href="#">Self-Learn Data Series</a>
+                    <a class="dropdown-item" href="#">Self-Learn Topics</a>
+                </div>
+            </li> -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Portfolio
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" target="_blank" href="https://github.com/cdenq">Github</a>
+                    <a class="dropdown-item" target="_blank" href="https://www.linkedin.com/in/christopherdenq/">Linkedin</a>
+                </div>
+            </li>
+            <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Portfolio
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="subroutes/projects.html">All Projects</a>
+                    <a class="dropdown-item" href="#">Data Science Projects</a>
+                    <a class="dropdown-item" href="#">Coding Projects</a>
+                    <a class="dropdown-item" href="#">Blog-Related Projects</a>
+                    <a class="dropdown-item" href="#">Miscellaneous Projects</a>
+                </div>
+            </li> -->
+            <!-- <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+            </li> -->
+        </ul>
+        </div>
+    </nav>
 
 	<!-- Main -->
     <div class="row fill">
@@ -66,17 +97,218 @@
         <div class="row">
             <div class="col-sm-8">
                 <div class="sub-left">
-                    <br>
                     <h1>
-                        <strong>Full Bio</strong>
+                        <strong>Full Bio 📘</strong>
                     </h1>
                     <p>
-                        My name is Christopher Denq, and I am current student in the University of Pennsylvania's Data Science graduate certification program. 
+                        I started my journey in data as an undergraduate at the University of Pennsylvnia, intending to major in
+                        Economics and Statistics. Enjoyably, these subjects utilized my pattern-recognition and problem-solving
+                        skills as a means to generate tangible impact, and thus, I spent the larger part of my underclassman years
+                        gearing for a career in business intelligence and analytics. 
                         <br>
-                        
+                        <br>
+                        However, around 3/5ths of the way through my undergraduate career, I discovered the exciting
+                        world of the art auction houses and the art market. Much the same in traditional business analytics,
+                        art speciality had to analytically uncover and iterate upon patterns to make impactful business decisions--only, their
+                        patterns drew upon a far greater range data: from sales histories to academic texts to visual art to even client preconceptions.
+                        Without the proper toolkit to effectively find those patterns in art, I became obsessive with connecting analytical theories
+                        to numerical patterns. This desire was the impetus for why I pivoted sharply into the areas I ultimately matriculated in: 
+                        Philosophy, Art History, and Marketing.
+                        <br>
+                        <br>
+                        Now a post-grad who has had his fill of the art market, I wish return to my original passions in data science and analysis.
+                        Hence, I immediately joined Penn's Data Science program after my Bachelors as a means to directly pursue my data science dreams.
+                        I believe my "detour" into philosophy and art speciality provides me with a unique and expanded problem-solving toolkit, as
+                        I can comfortably navigate a higher range of problems and data types, adapt myself to a larger pool of problem topics, and
+                        draw upon a greater breadth of diverse industry experience!
+                        <!-- When I'm not working with data, I enjoy these <a href="interest.html">other interests</a>! 
+                        <br>-->                        
+                        <!-- I'm a believer of <em>improving</em> in Data Science rather than learning it. 
+                        Learning suggests a "finally-finished" and total mastery of the topic;
+                        improving suggests an open-minded, growth mentality. I've documented my
+                        continued education here in my <a href="">Library+</a>! 
+                        <br> -->
                     </p>
                     <h1>
-                        <strong>FAQ</strong>
+                        <strong>Work Experience 💼</strong>
+                    </h1>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm edu-barrier-1">
+                                <div class="edu-card" style="background-color: #ffffff;">
+                                    <div class="row">
+                                        <div class="edu-small-lt">
+                                            <img class="edu-logo" src="../images/csun.jpg">
+                                        </div>
+                                        <div class="edu-small-rt" style="padding-left: 0px;">
+                                            California State University: Northridge
+                                            <div class="edu-title">Machine Learning Research Assistant | Nov '21 - present</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm edu-barrier-2">
+                                <div class="edu-card" style="background-color: #ffffff;">
+                                    <div class="row">
+                                        <div class="edu-small-lt">
+                                            <img class="edu-logo" src="../images/wyzant.jpg">
+                                        </div>
+                                        <div class="edu-small-rt" style="padding-left: 0px;">
+                                            Wyzant.com
+                                            <div class="edu-title">Computer Science Tutor | Sep '21 - present</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm edu-barrier-1">
+                                <div class="edu-card" style="background-color: #ffffff;">
+                                    <div class="row">
+                                        <div class="edu-small-lt">
+                                            <img class="edu-logo" src="../images/upenn.jpg">
+                                        </div>
+                                        <div class="edu-small-rt" style="padding-left: 0px;">
+                                            Penn Residential Services @ UPenn
+                                            <div class="edu-title">Chair of Manager Board | Aug '17 - May '21 </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm edu-barrier-2">
+                                <div class="edu-card" style="background-color: #ffffff;">
+                                    <div class="row">
+                                        <div class="edu-small-lt">
+                                            <img class="edu-logo" src="../images/upenn.jpg">
+                                        </div>
+                                        <div class="edu-small-rt" style="padding-left: 0px;">
+                                            Oasis Commissary @ UPenn
+                                            <div class="edu-title">Founder, Exec. Operations Manager | Sep '16 - Mar '20</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm edu-barrier-1">
+                                <div class="edu-card" style="background-color: #ffffff;">
+                                    <div class="row">
+                                        <div class="edu-small-lt">
+                                            <img class="edu-logo" src="../images/christie.jpg">
+                                        </div>
+                                        <div class="edu-small-rt" style="padding-left: 0px;">
+                                            Christie's Auctions & Private Sales 
+                                            <div class="edu-title">Art Specialist Intern | Jun '20 - Aug '20</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm edu-barrier-2">
+                                <div class="edu-card" style="background-color: #ffffff;">
+                                    <div class="row">
+                                        <div class="edu-small-lt">
+                                            <img class="edu-logo" src="../images/mckinsey.jpg">
+                                        </div>
+                                        <div class="edu-small-rt" style="padding-left: 0px;">
+                                            McKinsey & Company
+                                            <div class="edu-title">Business Analyst Intern | Jun '18 - Aug '18</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <p>
+                        Note: 
+                        Please see my <a href="../assets/downloads/resume.pdf" target="_blank">resume</a> for a more concise version of this page.
+                        Additionally, please see <a href="https://www.linkedin.com/in/christopherdenq/" target="_blank">here</a> for a full list
+                        of my past work experiences, including all non-technical roles.
+                    </p>
+                    <h1>
+                        <strong>Tools/Frameworks 🛠️</strong>
+                    </h1>
+                    <div class="table-wrapper">
+                        <h4>
+                            <strong>Data Science / Machine Learning</strong>
+                        </h4>
+                        <table class="alt">
+                            <thead>
+                                <tr>
+                                    <th>Domain</th>
+                                    <th>Languages</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Big Data & ML</td>
+                                    <td><strong>SKLearn, TensorFlow</strong>, Hadoop, Scipy, PyTorch, Hyperparamater Tuning, Modeling</td>
+                                </tr>
+                                <tr>
+                                    <td>Data Viz & Analysis</td>
+                                    <td><strong>Tableau, Pandas, Matplotlib</strong>, Numpy, Seaborn, Leaflet.js, Plotly, GMaps API, Web APIs, EDA</td>
+                                </tr>
+                                <tr>
+                                    <td>Spreadsheet</td>
+                                    <td><strong>Excel, VBA</strong>, Google Sheets, Google Apps Script</td>
+                                </tr>
+                                <tr>
+                                    <td>Math</td>
+                                    <td><strong>Statistics</strong>, Probability Theory, Linear Algebra, Regression</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <h4>
+                            <strong>Full-Stack Development</strong>
+                        </h4>
+                        <table class="alt">
+                            <tbody>
+                                <tr>
+                                    <td>Programming</td>
+                                    <td><strong>Python</strong>, R, Java, Scala, Data Structures and Algorithms, OOP</td>
+                                </tr>
+                                <tr>
+                                    <td>Database Management</td>
+                                    <td><strong>PostgreSQL (SQL)</strong>, ETL, MongoDB (NoSQL), SQLite, SQLAlchemy, Pymongo</td>
+                                </tr>
+                                <tr>
+                                    <td>Back-End Server</td>
+                                    <td><strong>Docker, Flask</strong>, GCP Cloud Run, Github Pages</td>
+                                </tr>
+                                <tr>
+                                    <td>Front-End Web</td>
+                                    <td><strong>HTML, CSS, JavaScript</strong>, Bootstrap, React.js</td>
+                                </tr>                                
+                            </tbody>
+                        </table>
+                        <h4>
+                            <strong>Miscellaneous</strong>
+                        </h4>
+                        <table class="alt">
+                            <tbody>
+                                <tr>
+                                    <td>Production</td>
+                                    <td><strong>Git, Github, Agile (Scrum)</strong>, Gitlab, Unix</td>
+                                </tr>
+                                <tr>
+                                    <td>Webscraping</td>
+                                    <td><strong>Selenium, Beautiful Soup</strong>, Splinter, Requests, Webdriver.manager</td>
+                                </tr>
+                                <tr>
+                                    <td>Soft Skills</td>
+                                    <td><strong>Team-oriented growth mentality</strong>, market research, data consulting, business acumen, project management, product understanding, adaptive critical thinking</td>
+                                </tr>
+                                <tr>
+                                    <td>Other</td>
+                                    <td><strong>Google Colab, Jupyter Notebook, Visual Studio Code</strong>, Latex, AutoHotkey (AHK), HotkeyNet (HKN), Microsoft Word, Microsoft Powerpoint, Google Slides, Google Doc</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- <h1>
+                        <strong>FAQ ❓</strong>
                     </h1>
                     <blockquote>How did an undergrad in Philosophy and Art History turn into grad work in Data Science?</blockquote>
                     <p>
@@ -91,92 +323,157 @@
                         many new pattern-recognition problems that I did not have the toolkit to solve. This drive to uncover numerical patterns
                         (in the form of price evaluations) in an inherently non-numerical field (visual art) made me obssessive, which is why
                         I pivoted so hard into art speciality when I returned to Penn. I finished two majors (Philosophy, Art History) and one minor
-                        (Consumer Psychology / Marketing) within two years, making my undergraduate career a total of five years (with one year break).
+                        (Consumer Psychology / Marketing) within two years, making my undergraduate career a total of five years.
                         <br>
                         <br>
                         Having achieved the goals I wanted to in art speciality--which culminated in an internship at Christie's--I decided to pivot back
                         to my original goals in data and analytics. Thus, upon graduating with my Bachelor's, I immediately went back to Penn to pursue
                         my data science dreams as a post-grad!  
-                    </p>
-                    <blockquote>How does a non-technical undergrad help you in a technical role within Data Science?</blockquote>
+                    </p> -->
+                    <!-- <blockquote>How does a non-technical undergrad help you in a technical role within Data Science?</blockquote>
                     <p>
                         Test
-                    </p>
+                    </p> -->
                 </div>
             </div>
-            <div class="col-sm-4" style="background-color: #ffffff">
+            <div class="col-sm-4" style="background-color: #ffffff; padding-left: 20px; padding-right: 20px;">
                 <div class="sub-right">
-                    <br>
                     <h1>
-                        <strong>Tools</strong>
+                        <strong>Formal Education 🎓</strong>
                     </h1>
-                    <div class="table-wrapper">
-                        <table class="alt">
-                            <thead>
-                                <tr>
-                                    <th>Name</th>
-                                    <th>Description</th>
-                                    <th>Price</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Item One</td>
-                                </tr>
-                                <tr>
-                                    <td>Item Two</td>
-                                    <td>Vis ac commodo adipiscing arcu aliquet.</td>
-                                    <td>19.99</td>
-                                </tr>
-                                <tr>
-                                    <td>Item Three</td>
-                                    <td> Morbi faucibus arcu accumsan lorem.</td>
-                                    <td>29.99</td>
-                                </tr>
-                                <tr>
-                                    <td>Item Four</td>
-                                    <td>Vitae integer tempus condimentum.</td>
-                                    <td>19.99</td>
-                                </tr>
-                                <tr>
-                                    <td>Item Five</td>
-                                    <td>Ante turpis integer aliquet porttitor.</td>
-                                    <td>29.99</td>
-                                </tr>
-                            </tbody>
-                            <tfoot>
-                                <tr>
-                                    <td colspan="2"></td>
-                                    <td>100.00</td>
-                                </tr>
-                            </tfoot>
-                        </table>
+                    <div class="container">
+                        <h3><center><strong>University of Pennsylvania</strong></center></h3>
+                        <div class="row">
+                            <!-- <div class="col-sm">
+                                <div class="edu-card">
+                                    <div class="edu-title">JD</div>
+                                    <img class="edu-logo" src="../images/gt.png">
+                                    Law
+                                    <div class="edu-sub">2023</div>
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <div class="edu-card">
+                                    <div class="edu-title">MicroMasters</div>
+                                    <img class="edu-logo" src="../images/mit.png">
+                                    Data Science and Statistics
+                                    <div class="edu-sub">2023</div>
+                                </div>
+                            </div> -->
+                            <div class="col-sm">
+                                <div class="edu-card">
+                                    <div class="edu-title">Graduate Certificate</div>
+                                    <img class="edu-logo" src="../images/penn.png">
+                                    Data Science
+                                    <div class="edu-sub">School of Engineering and Applied Sciences, 2022</div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm">
+                                <div class="edu-card">
+                                    <div class="edu-title">Bachelors</div>
+                                    <img class="edu-logo" src="../images/penn.png">
+                                    Philosophy
+                                    <div class="edu-sub">CAS, 2021</div>
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <div class="edu-card">
+                                    <div class="edu-title">Bachelors</div>
+                                    <img class="edu-logo" src="../images/penn.png">
+                                    History of Art
+                                    <div class="edu-sub">CAS, 2021</div>
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <div class="edu-card">
+                                    <div class="edu-title">Minor</div>
+                                    <img class="edu-logo" src="../images/penn.png">
+                                    Marketing
+                                    <div class="edu-sub">Wharton, 2021</div>
+                                </div>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                    <h1>
+                        <strong>Relevant Coursework 📚</strong>
+                    </h1>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm">
+                                University of Pennsylvania (Graduate Certificate)
+                                <ul>
+                                    <li>Neural Networks and Deep Learning, Introduction to</li>
+                                    <li>Supervised and Unsupervised Machine Learning, Introduction to</li>
+                                    <li>Business Intelligence, Analysis, and Visualization</li>
+                                    <li>Database Management</li>
+                                    <li>Web Application Fundamentals</li>
+                                    <li>Computer Programming Fundamentals</li>
+                                </ul>
+                                California State University: Northridge (Audit)
+                                <ul>
+                                    <li>COMP542: Machine Learning</li>
+                                    <li>COMP482: Computational Complexity</li>
+                                    <li>MATH549: Probability Theory</li>
+                                    <li>MATH442: Statistical Learning</li>
+                                </ul>
+                                Amazon: AWS Training University
+                                <ul>
+                                    <li><a href="https://www.amazon.com/gp/product/B09HSL8L4V/ref=ppx_yo_dt_b_d_asin_title_o00?ie=UTF8&psc=1" target="_blank">Math for Machine Learning</a></li>
+                                    <li><a href="https://www.amazon.com/gp/product/B09HY3RS6M/ref=ppx_yo_dt_b_d_asin_title_o01?ie=UTF8&psc=1" target="_blank">Machine Learning for Business Challenges</a></li>
+                                </ul>
+                                University of Pennsylvania (Bachelor of Arts) &
+                                <br>
+                                Wharton Customer Analytics (WCA) Supplementary
+                                <ul>
+                                    <li>WCA Python Bootcamp</li>
+                                    <li>WCA SQL Bootcamp</li>
+                                    <li>WCA Big Data, Introduction to</li>
+                                    <li>WCA Data Visualization, Introduction to</li>
+                                    <li>MKTG 277: Marketing Strategy</li>
+                                    <li>MKTG 212: Data and Analysis for Marketing Decisions</li>
+                                    <li>STAT 431: Statistical Inference</li>
+                                    <li>STAT 430: Probability Theory, Introduction to</li>
+                                    <li>STAT 101: Business Statistics, Introduction to</li>
+                                    <li>MATH 114: Multivariate Calculus</li>
+                                    <li>PHIL 015: Logic and Formal Reasoning</li>
+                                    <li>PHIL 005: Formal Logic I</li>
+                                    <li>PHIL 040: Machine Fairness: Ethics of Algorithms</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
 				</div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm">col-sm</div>
-            <div class="col-sm">col-sm</div>
-            <div class="col-sm">col-sm</div>
-        </div>
-        <div class="row">
-            <div class="col-sm">
-                &copy; 2022 by Christopher K. Denq
-                <ul class="icons">
-					<li><a href="https://www.linkedin.com/in/christopherdenq/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-					<li><a href="https://github.com/cdenq" class="icon brands fa-github"><span class="label">Github</span></a></li>
-					<li><a href="https://discordapp.com/users/122537517835616257" class="icon brands fa-discord"><span class="label">Discord</span></a></li>
-					<li><a href="https://cdenq.github.io/" class="icon solid fa-blog"><span class="label">Website</span></a></li>
-					<li><a href="mailto:cdenq@sas.upenn.edu" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-				</ul>
+                <h1>
+                    <strong>Recognition ⭐</strong>
+                </h1>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm">
+                            <ul>
+                                <li>[2016] John Parker Fellowship for Statistical Modeling | University of Pennsylvnia ($500)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
 	<!-- Footer -->
 		<footer id="footer">
 			<div class="inner">
-				
+                &copy; 2022 by Christopher K. Denq | <a href="https://github.com/cdenq/cdenq.github.io" target="_blank">website source code</a>
+				<ul class="icons">
+					<li><a href="https://www.linkedin.com/in/christopherdenq/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+					<li><a href="https://github.com/cdenq" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
+					<li><a href="https://discordapp.com/users/122537517835616257" target="_blank" class="icon brands fa-discord"><span class="label">Discord</span></a></li>
+					<li><a href="https://cdenq.github.io/" target="_blank" class="icon solid fa-blog"><span class="label">Website</span></a></li>
+					<li><a href="mailto:cdenq@sas.upenn.edu" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
 			</div>
 		</footer>
 

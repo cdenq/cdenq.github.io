@@ -85,7 +85,58 @@ input, select, textarea {
 	object-fit: cover;
 	width: 100%;
 	height: 17em;
- }
+}
+
+.edu-logo {
+	/* width: 56px; */
+	height: 64px; 
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.edu-card {
+	border: dashed 2px rgb(196, 245, 214);
+	background-color: rgb(247, 255, 250);
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10pt;
+}
+
+.edu-title {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.edu-sub {
+	font-size: 10px;
+	font-style: italic;
+}
+
+.edu-small-lt {
+	width: 30%;
+}
+
+.edu-small-rt {
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+.edu-barrier-1 {
+	padding-left: 0px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+.edu-barrier-2 {
+	padding-left: 0px;
+	padding-bottom: 10px;
+}
 
 .centered {
 	position: absolute;
@@ -98,10 +149,12 @@ input, select, textarea {
 
 /* Subroutes Body */
 .sub-right {
-	margin-right: 10%;
+	padding-top: 2em;
+	/* margin-right: 5%; */
 }
 .sub-left {
-	margin-right:8%;
+	padding-top: 2em;
+	margin-right: 4%;
 	margin-left: 15%;
 }
 
@@ -133,7 +186,7 @@ input, select, textarea {
 	body, input, select, textarea {
 		color: #000;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 16pt;
+		font-size: 12pt;
 		font-weight: 400;
 		line-height: 1.75em;
 	}
@@ -2208,7 +2261,7 @@ input, select, textarea {
 		}
 
 			ul.alt li {
-				border-top: solid 2px #efefef;
+				border-top: solid 2px #49bf9d;
 				padding: 0.5em 0;
 			}
 
@@ -2414,7 +2467,7 @@ input, select, textarea {
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: #f7f7f7;
+				background-color: rgb(247, 255, 250);
 			}
 
 		table td {
@@ -2442,7 +2495,7 @@ input, select, textarea {
 		}
 
 			table.alt tbody tr td {
-				border: solid 2px #efefef;
+				border: dashed 2px rgb(196, 245, 214);
 				border-left-width: 0;
 				border-top-width: 0;
 			}
