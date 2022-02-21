@@ -148,6 +148,43 @@ input, select, textarea {
 }
 
 /* Subroutes Body */
+.card {display:inline-block;}
+.card-img-top {
+	width: 100%;
+	height: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.blog-img-sm {
+	width: 250px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.blog-img-md {
+	width: 500px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.blog-img-lg {
+	width: 750px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.blog-img-xl {
+	width: 1000px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .sub-right {
 	padding-top: 2em;
 	/* margin-right: 5%; */
@@ -155,6 +192,11 @@ input, select, textarea {
 .sub-left {
 	padding-top: 2em;
 	margin-right: 4%;
+	margin-left: 10%;
+}
+.sub-mid {
+	padding-top: 2em;
+	margin-right: 15%;
 	margin-left: 15%;
 }
 
