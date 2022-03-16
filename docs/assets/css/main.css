@@ -96,8 +96,20 @@ input, select, textarea {
 	margin-right: auto;
 }
 
+.edu-highlight {
+	border: double 2px rgb(25, 0, 255);
+	border-radius: 25px;
+	background-color: rgb(247, 255, 250);
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10pt;
+}
+
 .edu-card {
-	border: dashed 2px rgb(196, 245, 214);
+	border: double 2px rgb(196, 245, 214);
+	border-radius: 25px;
 	background-color: rgb(247, 255, 250);
 	display: block;
 	text-align: center;
@@ -114,10 +126,13 @@ input, select, textarea {
 .edu-sub {
 	font-size: 10px;
 	font-style: italic;
+	letter-spacing: 1px;
 }
 
 .edu-small-lt {
 	width: 30%;
+	display:flex;
+	align-items:center;
 }
 
 .edu-small-rt {
@@ -2289,7 +2304,7 @@ input, select, textarea {
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
+		margin: 0 0 0 0;
 		padding-left: 1em;
 	}
 
@@ -2537,7 +2552,8 @@ input, select, textarea {
 		}
 
 			table.alt tbody tr td {
-				border: dashed 2px rgb(196, 245, 214);
+				border: double 2px rgb(196, 245, 214);
+				/* border-radius: 10px; */
 				border-left-width: 0;
 				border-top-width: 0;
 			}
