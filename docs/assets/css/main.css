@@ -7,6 +7,10 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+d-block w-100 {
+
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -87,70 +91,57 @@ input, select, textarea {
 	height: 17em;
 }
 
-.edu-logo {
-	/* width: 56px; */
-	height: 64px; 
-	display: block;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
+.skills-table-wrapper {
+	display: inline-block;
 }
 
-.edu-highlight {
-	border: double 2px rgb(25, 0, 255);
-	border-radius: 25px;
-	background-color: rgb(247, 255, 250);
-	display: block;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 10pt;
+.skills-table-wrapper table {
+	width: 100%;
+}
+
+.skills-table-wrapper th:first-child,
+.skills-table-wrapper td:first-child {
+	width: 200px;
+	vertical-align: top;
+}
+
+.edu-section {
+	border-radius: 8px;
+	border: 1px solid #c0c0c0;
+	background-color: white;
+	padding: 20px;
+	margin-bottom: 10px;
 }
 
 .edu-card {
-	border: double 2px rgb(196, 245, 214);
-	border-radius: 25px;
-	background-color: rgb(247, 255, 250);
-	display: block;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 10pt;
-}
-
-.edu-title {
-	font-size: 12px;
-	font-weight: bold;
-}
-
-.edu-sub {
-	font-size: 10px;
-	font-style: italic;
-	letter-spacing: 1px;
-}
-
-.edu-small-lt {
-	width: 30%;
-	display:flex;
-	align-items:center;
-}
-
-.edu-small-rt {
-	text-align: left;
-	margin-left: auto;
-	margin-right: auto;
-	width: 70%;
-}
-
-.edu-barrier-1 {
-	padding-left: 0px;
-	padding-right: 10px;
+	display: flex;
+	align-items: flex-start;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 15px;
+	margin-top: 15px;
 	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc
 }
 
-.edu-barrier-2 {
-	padding-left: 0px;
-	padding-bottom: 10px;
+.edu-card-borderless {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 10px;
+}
+  
+.edu-card img {
+	width: 75px;
+	height: 75px;
+	border-radius: 4px;
+	margin-right: 10px;
+}
+  
+.edu-card .content {
+	flex-grow: 1;
 }
 
 .centered {
@@ -160,6 +151,7 @@ input, select, textarea {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	text-align: center;
 }
 
 /* Subroutes Body */
@@ -226,7 +218,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: rgb(247, 255, 250);
+		background: rgb(254, 255, 254);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -285,7 +277,7 @@ input, select, textarea {
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-			color: inherit;
+			color: #49bf9d;
 			text-decoration: none;
 		}
 
@@ -2180,12 +2172,26 @@ input, select, textarea {
 		}
 
 /* Image */
+	.carousel-img {
+		width: 500px !important;
+		height: 300px !important;
+	}
+
+	.carousel-img-h {
+		width: 500px !important;
+		height: 500px !important;
+	}
 
 	.image {
 		border-radius: 0.35em;
 		border: 0;
 		display: inline-block;
 		position: relative;
+	}
+
+	.avatar-container-data {
+		display: flex;
+		justify-content: center;
 	}
 
 		.image:before {
